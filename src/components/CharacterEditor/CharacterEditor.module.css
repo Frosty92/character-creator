@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  width:65%;
 }
 
 .title {
@@ -24,7 +25,17 @@
 }
 
 .characterWrapper {
+
+  position: fixed;
+  top: 0;
+  /* right: -64px; */
+  right:-32px;
+  min-height: 500px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .controlColumn {
+  width:50%;
 }
